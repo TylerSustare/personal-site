@@ -19,7 +19,6 @@ const typeDefs = gql`
 const resolvers = {
   Query: {
     users(_parent: undefined, _args: undefined, context: GqlContext) {
-      console.log('favorite', context.favorite);
       return [{ name: 'Tyler', favorite: context.favorite }];
     },
   },
@@ -45,7 +44,7 @@ export const config = {
 };
 
 // how to run "middleware" with this setup
-export default function (req: NextApiRequest, res: NextApiResponse) {
+export default function (req: NextApiRequest, res: NextApiResponse): Promise<void> {
   req.headers.favorite = 'flapjack';
   return handler(req, res);
 }

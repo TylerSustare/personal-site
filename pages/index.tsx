@@ -1,7 +1,9 @@
 import { ReactElement } from 'react';
+// y-u-no see this isn't an unused var?
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Head from 'next/head';
 
-export default function Home(): ReactElement {
+const Home = function (): ReactElement {
   return (
     <div className="container">
       <Head>
@@ -17,6 +19,13 @@ export default function Home(): ReactElement {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+        <button
+          onClick={() => {
+            window.alert('With typescript and Jest');
+          }}
+        >
+          Test Button
+        </button>
 
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
@@ -200,4 +209,7 @@ export default function Home(): ReactElement {
       `}</style>
     </div>
   );
-}
+};
+
+export default Home;
+export { Home };

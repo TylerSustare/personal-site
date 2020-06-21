@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="jsx-1913228617 container"
+  >
+    <main
+      class="jsx-1913228617"
+    >
+      <h1
+        class="jsx-1913228617 title"
+      >
+        Welcome to 
+        <a
+          class="jsx-1913228617"
+          href="https://nextjs.org"
+        >
+          Next.js!
+        </a>
+      </h1>
+      <p
+        class="jsx-1913228617 description"
+      >
+        Get started by editing 
+        <code
+          class="jsx-1913228617"
+        >
+          pages/index.js
+        </code>
+      </p>
+      <button
+        class="jsx-1913228617"
+      >
+        Test Button
+      </button>
+      <div
+        class="jsx-1913228617 grid"
+      >
+        <a
+          class="jsx-1913228617 card"
+          href="https://nextjs.org/docs"
+        >
+          <h3
+            class="jsx-1913228617"
+          >
+            Documentation →
+          </h3>
+          <p
+            class="jsx-1913228617"
+          >
+            Find in-depth information about Next.js features and API.
+          </p>
+        </a>
+        <a
+          class="jsx-1913228617 card"
+          href="https://nextjs.org/learn"
+        >
+          <h3
+            class="jsx-1913228617"
+          >
+            Learn →
+          </h3>
+          <p
+            class="jsx-1913228617"
+          >
+            Learn about Next.js in an interactive course with quizzes!
+          </p>
+        </a>
+        <a
+          class="jsx-1913228617 card"
+          href="https://github.com/vercel/next.js/tree/master/examples"
+        >
+          <h3
+            class="jsx-1913228617"
+          >
+            Examples →
+          </h3>
+          <p
+            class="jsx-1913228617"
+          >
+            Discover and deploy boilerplate example Next.js projects.
+          </p>
+        </a>
+        <a
+          class="jsx-1913228617 card"
+          href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        >
+          <h3
+            class="jsx-1913228617"
+          >
+            Deploy →
+          </h3>
+          <p
+            class="jsx-1913228617"
+          >
+            Instantly deploy your Next.js site to a public URL with Vercel.
+          </p>
+        </a>
+      </div>
+    </main>
+    <footer
+      class="jsx-1913228617"
+    >
+      <a
+        class="jsx-1913228617"
+        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Powered by 
+        <img
+          alt="Vercel Logo"
+          class="jsx-1913228617 logo"
+          src="/vercel.svg"
+        />
+      </a>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
