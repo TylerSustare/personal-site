@@ -13,7 +13,7 @@ describe('/ handler', () => {
       return apiResolver(req, res, undefined, handler);
     };
 
-    // limitation of http.createServer with TS
+    // limitation of http.createServer with TS for as unknown as http.RequestListener
     const server = http.createServer((requestHandler as unknown) as http.RequestListener);
     const url = await listen(server);
     const response = await fetch(`${url}?name=scooby`);
