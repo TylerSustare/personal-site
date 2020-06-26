@@ -9,12 +9,9 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
-import InfoIcon from '@material-ui/icons/Info';
-import MailIcon from '@material-ui/icons/Mail';
-import HomeIcon from '@material-ui/icons/Home';
+import { Menu, Info, Mail, Home, Work } from '@material-ui/icons';
 import Link from 'next/link';
 
-import MenuIcon from '@material-ui/icons/Menu';
 import { IconButton } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
@@ -30,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 type Anchor = 'top' | 'left' | 'bottom' | 'right';
+const drawerDirection = 'left';
 
 export default function MenuDrawer(): ReactElement {
   const classes = useStyles();
@@ -63,19 +61,19 @@ export default function MenuDrawer(): ReactElement {
       <List subheader={<ListSubheader>Pages</ListSubheader>}>
         <Link href="/">
           <ListItem button>
-            <ListItemIcon>{<HomeIcon />}</ListItemIcon>
+            <ListItemIcon>{<Home />}</ListItemIcon>
             <ListItemText primary="Home" />
           </ListItem>
         </Link>
         <Link href="/about">
           <ListItem button>
-            <ListItemIcon>{<InfoIcon />}</ListItemIcon>
+            <ListItemIcon>{<Info />}</ListItemIcon>
             <ListItemText primary="About Me" />
           </ListItem>
         </Link>
         <Link href="/portfolio">
           <ListItem button>
-            <ListItemIcon>{<InfoIcon />}</ListItemIcon>
+            <ListItemIcon>{<Work />}</ListItemIcon>
             <ListItemText primary="Portfolio" />
           </ListItem>
         </Link>
@@ -84,7 +82,7 @@ export default function MenuDrawer(): ReactElement {
       <List>
         {['All mail', 'Trash', 'Spam'].map((text, index) => (
           <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
+            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <Mail />}</ListItemIcon>
             <ListItemText primary={text} />
           </ListItem>
         ))}
@@ -95,16 +93,16 @@ export default function MenuDrawer(): ReactElement {
   return (
     <div>
       <IconButton
-        onClick={toggleDrawer('left', true)}
+        onClick={toggleDrawer(drawerDirection, true)}
         edge="start"
         className={classes.menuButton}
         color="inherit"
         aria-label="menu"
       >
-        <MenuIcon />
+        <Menu />
       </IconButton>
-      <Drawer anchor={'left'} open={state['left']} onClose={toggleDrawer('left', false)}>
-        {list('left')}
+      <Drawer anchor={drawerDirection} open={state[drawerDirection]} onClose={toggleDrawer(drawerDirection, false)}>
+        {list(drawerDirection)}
       </Drawer>
     </div>
   );

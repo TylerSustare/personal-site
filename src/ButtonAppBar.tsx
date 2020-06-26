@@ -1,8 +1,8 @@
 import React, { ReactElement } from 'react';
-import { createStyles, makeStyles, Theme, Toolbar, AppBar, Container, Typography, Button } from '@material-ui/core';
+import { createStyles, makeStyles, Toolbar, AppBar, Container, Typography, Button } from '@material-ui/core';
 import MenuDrawer from './MenuDrawer';
 
-const useStyles = makeStyles((theme: Theme) =>
+const useStyles = makeStyles(() =>
   createStyles({
     root: {
       flexGrow: 1,
@@ -10,9 +10,7 @@ const useStyles = makeStyles((theme: Theme) =>
     title: {
       flexGrow: 1,
     },
-    appBar: {
-      backgroundColor: theme.palette.background.default,
-    },
+    // appBar: { backgroundColor: theme.palette.background.default },
   }),
 );
 
@@ -25,7 +23,7 @@ const ButtonAppBar: React.FC<Props> = ({ title }): ReactElement => {
 
   return (
     <div className={classes.root}>
-      <AppBar className={classes.appBar} position="static">
+      <AppBar position="static">
         <Toolbar>
           <MenuDrawer />
 

@@ -12,10 +12,14 @@ const Home = function (): ReactElement {
       <Box display="flex" alignItems="center" justifyContent="center">
         <Container maxWidth="sm">
           <Box my={4}>
-            <Typography variant="h4" component="h1" gutterBottom>
-              Next.js example
+            <Typography variant="h3" component="h1" gutterBottom>
+              👋 Hi I&apos;m Tyler
             </Typography>
-            <LinkButton variant="contained" color="primary" href="/about">
+            <Typography variant="body1" component="p" gutterBottom>
+              I like to do coding stuff and spending time with my family. 👨‍👩‍👧‍👦
+            </Typography>
+
+            <LinkButton variant="text" color="primary" href="/about">
               Go to the about page
             </LinkButton>
             <ProTip />
