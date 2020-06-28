@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
 import Head from 'next/head';
-import HomeContent from '../src/home';
+import { HomeContent } from '../src/components/Home';
 
 const Home = function (): ReactElement {
   return (
@@ -15,4 +15,3 @@ const Home = function (): ReactElement {
 };
 
 export default Home;
-export { Home };

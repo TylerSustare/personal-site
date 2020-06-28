@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
   lightBulb: {
     verticalAlign: 'middle',
     marginRight: theme.spacing(1),
+    color: theme.palette.secondary.main,
   },
 }));
 

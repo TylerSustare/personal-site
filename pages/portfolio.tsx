@@ -2,10 +2,10 @@ import React, { ReactElement } from 'react';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import ProTip from '../src/ProTip';
-import Copyright from '../src/Copyright';
-import LinkButton from '../src/LinkButton';
-import ButtonAppBar from '../src/ButtonAppBar';
+import ProTip from '../src/components/ProTip';
+import Copyright from '../src/components/shared/Copyright';
+import LinkButton from '../src/components/shared/LinkButton';
+import ButtonAppBar from '../src/components/shared/ButtonAppBar';
 
 export default function About(): ReactElement {
   return (

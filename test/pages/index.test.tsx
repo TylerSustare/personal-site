@@ -3,7 +3,7 @@ import {
   render,
   // , fireEvent
 } from '../testUtils';
-import HomeContent from '../../src/home/index';
+import { HomeContent } from '../../src/components/Home';
 
 describe('Home page', () => {
   it('matches snapshot', () => {
