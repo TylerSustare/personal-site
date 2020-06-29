@@ -29,7 +29,7 @@ export const HomeContent = function (): ReactElement {
               </Box>
               <Box padding=".4rem">
                 <Typography variant="h3" component="h2" gutterBottom>
-                  🐰/👩‍🏫 Bunny
+                  👩‍🏫/🐰Bunny
                 </Typography>
                 <Typography variant="body1" component="p" gutterBottom>
                   My wife of 7 years, and middle school sweetheart is the backbone of our home, and the reason for any
@@ -42,7 +42,7 @@ export const HomeContent = function (): ReactElement {
                   👧 Smidge
                 </Typography>
                 <Typography variant="body1" component="p" gutterBottom>
-                  Sweetest little girl in the whole world.
+                  Sweetest and most creative little girl in the whole world.
                 </Typography>
               </Box>
               <Box padding=".4rem">
@@ -50,7 +50,7 @@ export const HomeContent = function (): ReactElement {
                   👶 Den
                 </Typography>
                 <Typography variant="body1" component="p" gutterBottom>
-                  Such a kind little guy.
+                  Such a kind and thoughtful little guy.
                 </Typography>
               </Box>
               <ProTip />
