@@ -14,7 +14,7 @@ exports[`Home page matches snapshot 1`] = `
         <div>
           <button
             aria-label="menu"
-            class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-5 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+            class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-4 MuiIconButton-colorInherit MuiIconButton-edgeStart"
             tabindex="0"
             type="button"
           >
@@ -40,11 +40,15 @@ exports[`Home page matches snapshot 1`] = `
         <div
           class="MuiContainer-root MuiContainer-maxWidthMd"
         >
-          <h6
-            class="MuiTypography-root makeStyles-title-2 MuiTypography-h6"
+          <div
+            class="MuiBox-root MuiBox-root-5"
           >
-            Home
-          </h6>
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+            >
+              Welcome
+            </h5>
+          </div>
         </div>
         <button
           class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit"
@@ -64,46 +68,94 @@ exports[`Home page matches snapshot 1`] = `
     </header>
   </div>
   <div
-    class="MuiBox-root MuiBox-root-6"
+    class="MuiContainer-root MuiContainer-maxWidthMd"
   >
     <div
-      class="MuiContainer-root MuiContainer-maxWidthSm"
+      class="MuiBox-root MuiBox-root-6"
     >
       <div
         class="MuiBox-root MuiBox-root-7"
       >
         <h1
-          class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom"
+          class="MuiTypography-root MuiTypography-h2 MuiTypography-gutterBottom"
         >
-          👋 Hi I'm Tyler
+          👋 Hi, I'm Tyler
         </h1>
-        <p
-          class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+        <div
+          class="MuiBox-root MuiBox-root-8"
         >
-          I like to do coding stuff and spending time with my family. 👨‍👩‍👧‍👦
-        </p>
-        <a
-          aria-disabled="false"
-          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
-          href="/about"
-          role="button"
-          tabindex="0"
-        >
-          <span
-            class="MuiButton-label"
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
           >
-            Go to the about page
-          </span>
-          <span
-            class="MuiTouchRipple-root"
-          />
-        </a>
+            I like to do coding stuff and spend time with my family. 👨‍👩‍👧‍👦
+            <br />
+            Here is the important stuff about the people I love, my family. If you would like to see more about me professionally go here
+            <a
+              aria-disabled="false"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+              href="/about"
+              role="button"
+              tabindex="0"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Professional About Me
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </a>
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-9"
+        >
+          <h2
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom"
+          >
+            👩‍🏫/🐰Bunny
+          </h2>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            My wife of 7 years, and middle school sweetheart is the backbone of our home, and the reason for any and all of the successes we've had as a team. She's the greatest wife and mommy on the planet and I will absolutely fight you over that.
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-10"
+        >
+          <h2
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom"
+          >
+            👧 Smidge
+          </h2>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            Sweetest and most creative little girl in the whole world.
+          </p>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-11"
+        >
+          <h2
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom"
+          >
+            👶 Den
+          </h2>
+          <p
+            class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+          >
+            Such a kind and thoughtful little guy.
+          </p>
+        </div>
         <p
-          class="MuiTypography-root makeStyles-root-8 MuiTypography-body1 MuiTypography-colorTextSecondary"
+          class="MuiTypography-root makeStyles-root-12 MuiTypography-body1 MuiTypography-colorTextSecondary"
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root makeStyles-lightBulb-9"
+            class="MuiSvgIcon-root makeStyles-lightBulb-13"
             focusable="false"
             viewBox="0 0 24 24"
           >
