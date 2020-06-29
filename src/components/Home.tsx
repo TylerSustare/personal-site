@@ -47,7 +47,7 @@ export const HomeContent = function (): ReactElement {
               </Box>
               <Box padding=".4rem">
                 <Typography variant="h3" component="h2" gutterBottom>
-                  👶 Den
+                  👶 Denny
                 </Typography>
                 <Typography variant="body1" component="p" gutterBottom>
                   Such a kind and thoughtful little guy.
