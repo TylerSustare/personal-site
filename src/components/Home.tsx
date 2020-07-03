@@ -1,7 +1,5 @@
 import { ReactElement } from 'react';
 import { Box, Container, Typography } from '@material-ui/core';
-import Copyright from './shared/Copyright';
-import ProTip from './ProTip';
 import LinkButton from './shared/LinkButton';
 import ButtonAppBar from './shared/ButtonAppBar';
 
@@ -53,8 +51,6 @@ export const HomeContent = function (): ReactElement {
                   Such a kind and thoughtful little guy.
                 </Typography>
               </Box>
-              <ProTip />
-              <Copyright />
             </>
           </Box>
         </Box>

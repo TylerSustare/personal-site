@@ -5,6 +5,7 @@ import Head from 'next/head';
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../src/theme';
+import Copyright from '../src/components/shared/Copyright';
 
 function App({ Component, pageProps }: AppProps): ReactElement {
   React.useEffect(() => {
@@ -26,6 +27,7 @@ function App({ Component, pageProps }: AppProps): ReactElement {
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
         <Component {...pageProps} />
+        <Copyright />
       </ThemeProvider>
     </React.Fragment>
   );

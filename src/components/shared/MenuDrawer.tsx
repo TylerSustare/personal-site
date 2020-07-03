@@ -9,7 +9,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
-import { Menu, Info, Mail, Home, Work } from '@material-ui/icons';
+import { Menu, Info, Mail, Home, Work, FreeBreakfast } from '@material-ui/icons';
 import Link from 'next/link';
 
 import { IconButton } from '@material-ui/core';
@@ -62,7 +62,7 @@ export default function MenuDrawer(): ReactElement {
         <Link href="/">
           <ListItem button>
             <ListItemIcon>{<Home />}</ListItemIcon>
-            <ListItemText primary="Home" />
+            <ListItemText primary="Welcome" />
           </ListItem>
         </Link>
         <Link href="/about">
@@ -75,6 +75,12 @@ export default function MenuDrawer(): ReactElement {
           <ListItem button>
             <ListItemIcon>{<Work />}</ListItemIcon>
             <ListItemText primary="Portfolio" />
+          </ListItem>
+        </Link>
+        <Link href="/wisdom">
+          <ListItem button>
+            <ListItemIcon>{<FreeBreakfast />}</ListItemIcon>
+            <ListItemText primary="Coffee Thoughts" />
           </ListItem>
         </Link>
       </List>

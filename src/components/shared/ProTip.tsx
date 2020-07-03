@@ -1,8 +1,6 @@
 import React, { ReactElement } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Link from '@material-ui/core/Link';
 import SvgIcon from '@material-ui/core/SvgIcon';
-import Typography from '@material-ui/core/Typography';
 
 interface Props {
   className: string;
@@ -29,11 +27,5 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ProTip(): ReactElement {
   const classes = useStyles();
-  return (
-    <Typography className={classes.root} color="textSecondary">
-      <LightBulbIcon className={classes.lightBulb} />
-      Pro tip: See more <Link href="https://material-ui.com/getting-started/templates/">templates</Link> on the
-      Material-UI documentation.
-    </Typography>
-  );
+  return <LightBulbIcon className={classes.lightBulb} />;
 }

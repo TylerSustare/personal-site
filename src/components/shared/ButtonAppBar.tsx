@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { createStyles, makeStyles, Toolbar, AppBar, Container, Typography, Button, Box } from '@material-ui/core';
+import { createStyles, makeStyles, Toolbar, AppBar, Container, Typography, Box } from '@material-ui/core';
 import MenuDrawer from './MenuDrawer';
 
 const useStyles = makeStyles(() =>
@@ -30,7 +30,7 @@ const ButtonAppBar: React.FC<Props> = ({ title }): ReactElement => {
               <Typography variant="h5">{title}</Typography>
             </Box>
           </Container>
-          <Button color="inherit">Login</Button>
+          {/* <Button color="inherit">Login</Button> */}
         </Toolbar>
       </AppBar>
     </div>
