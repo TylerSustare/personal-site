@@ -11,12 +11,14 @@ export default function About(): ReactElement {
       <ButtonAppBar title="Portfolio" />
       <Container maxWidth="md">
         <Box my={4}>
-          <Typography variant="h4" component="h1" gutterBottom>
-            Next.js example
+          <Typography align="center" variant="h4" component="h1" gutterBottom>
+            WIP
           </Typography>
-          <LinkButton variant="contained" color="primary" href="/">
-            Go to the main page
-          </LinkButton>
+          <Box display="flex" justifyContent="center">
+            <LinkButton variant="contained" color="primary" href="/">
+              Go Back to Welcome
+            </LinkButton>
+          </Box>
         </Box>
       </Container>
     </>

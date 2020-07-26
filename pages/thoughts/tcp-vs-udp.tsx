@@ -16,7 +16,7 @@ export default function About(): ReactElement {
           <Typography variant="h6" component="h3" gutterBottom>
             TCP (Transmission Control Protocol)
           </Typography>
-          <Typography variant="body1" component="p" gutterBottom>
+          <Typography variant="body1" component="h6" gutterBottom>
             <ol>
               <li>
                 TCP is handshake based.
@@ -41,7 +41,7 @@ export default function About(): ReactElement {
           <Typography variant="h6" component="h3" gutterBottom>
             UDP (User Datagram Protocol)
           </Typography>
-          <Typography variant="body1" component="p" gutterBottom>
+          <Typography variant="body1" component="h6" gutterBottom>
             <ol>
               <li>UDP is a connection-less protocol</li>
               <li>
