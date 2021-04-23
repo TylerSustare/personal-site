@@ -49,7 +49,13 @@ export default function About(): ReactElement {
               </li>
               <li>
                 UDP is commonly used for applications that can handle some loss of packets. like streaming audio or
-                video
+                video. Use UDP where it's worse if a packet arives late than if it doesn't arrive at all. UDP is more concerned
+                with getting the data to you immediately than getting it to you complete. e.g. A FPS game
+                you need to know the location of the player is right now, not 2 seconds ago when you lost a packet.
+               
+              </li>
+              <li>
+                
               </li>
               <li>UDP is also used in DNS queries</li>
             </ol>
